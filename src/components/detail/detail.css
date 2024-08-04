@@ -1,0 +1,107 @@
+.detail {
+    flex: 1;
+
+    .user {
+        padding: 12px 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        border-bottom: 1px solid #dddddd35;
+
+        img {
+            width: 85px;
+            height: 85px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+
+    .info {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .option {
+            .title {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                    background-color: rgba(17, 25, 40, 0.3);
+                    padding: 10px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+            }
+            .photos {
+                border: 1px solid #ccc;
+                padding: 10px;
+                max-height: 220px; /* Adjusted to show 4 photos with 15px gap */
+                overflow-y: auto;
+                overflow-x: hidden;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                margin-top: 15px;
+            }
+            
+            .photoItem {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            
+            .photoDetail {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+            
+            .photoDetail img {
+                width: 40px;
+                height: 40px;
+                border-radius: 5px;
+                object-fit: cover;
+            }
+            
+            .photoDetail span {
+                font-size: 14px;
+                color: lightgray;
+                font-weight: 300;
+            }
+            
+            .icon {
+                height: 35px;
+                width: 35px;
+                background-color: rgba(17, 25, 40, 0.3);
+                padding: 10px;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+            
+        }
+
+        button {
+            padding: 15px;
+            background-color: rgba(230,74,105,0.553);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgba(220,20,60,0.796);
+            }
+
+            &.logout {
+                padding: 10px;
+                background-color: #1a73e8;
+            }
+        }
+    }
+}
