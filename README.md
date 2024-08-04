@@ -1,3 +1,3 @@
-# Lama Dev Chat App Starter template
+# ChatterBox
+ChatterBox is a modern real-time chat application designed for seamless communication and interactive messaging. Built with React and Firebase, ChatterBox provides a robust platform for users to chat, share media, and manage their profiles efficiently.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
